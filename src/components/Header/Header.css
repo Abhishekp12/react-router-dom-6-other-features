@@ -1,0 +1,31 @@
+.container{
+    background-color: blue;
+ 
+    font-weight: bold;
+
+}
+.navbar{
+    display:flex;
+    justify-content: flex-end;
+    padding:20px;
+}
+.nav-item-left{
+    display:flex;
+    color: white;
+}
+.NavLink{
+    text-decoration: none;
+    color: white;
+    display:inline-block;
+    cursor:pointer;
+    margin:1px 3px;
+    padding-left: 20px;
+    font-size:20px;
+    font-weight: 800;
+    gap: 1;
+}
+
+.active{
+    color: aliceblue;
+    text-decoration: none;
+}
