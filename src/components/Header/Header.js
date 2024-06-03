@@ -5,17 +5,15 @@ import './Header.css';
 const Header = () => {
   return (
     <>
-    <header className='container'>
-        <div className='navbar'>
-            <div className="nav-item-left"> 
-              <NavLink to="/"  >Home</NavLink>
-              <NavLink to="/about"  >About</NavLink>
-            </div>
+        <header className='container'>
+            <ul className="nav-item-left">
+              <li><NavLink to="/"  >Home</NavLink></li>
+              <li> <NavLink to="/about"  >About</NavLink></li>        
+            </ul>
             <div className="nav-item-leftmost"> 
-              <NavLink to="/contact"  >contact</NavLink>
+              <NavLink to="/contact"  >contactus</NavLink>
             </div>
-        </div>
-    </header>
+        </header>
     </>
   )
 }
