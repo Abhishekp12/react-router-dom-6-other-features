@@ -7,11 +7,15 @@ import reportWebVitals from './reportWebVitals';
 import {
   RouterProvider,
 } from "react-router-dom";
+import App from'./App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    {/* <RouterProvider router={router} /> when u use routes.js file & not use App.js 
+    As in very latest version of react router dom 6  use routes js 
+     otherwise updates react dom app.js  is good*/}
+ <App/>
   </React.StrictMode>
 );
 
